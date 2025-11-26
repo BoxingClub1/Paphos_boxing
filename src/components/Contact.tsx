@@ -33,7 +33,7 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Location</h4>
-                    <p className="text-gray-400">Paphos, Cyprus</p>
+                    <p className="text-gray-400">Marcantoniou Bragadinou, Paphos 8035</p>
                   </div>
                 </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
                   <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-gray-400">+357 99 123456</p>
+                    <p className="text-gray-400">+357 99 715937</p>
                   </div>
                 </div>
 
@@ -57,8 +57,7 @@ const Contact = () => {
                   <Clock className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Hours</h4>
-                    <p className="text-gray-400">Monday - Friday: 6:00 AM - 10:00 PM</p>
-                    <p className="text-gray-400">Saturday - Sunday: 8:00 AM - 8:00 PM</p>
+                    <p className="text-gray-400">Monday - Friday: 8:00 AM - 19:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +67,7 @@ const Contact = () => {
               <h3 className="text-2xl font-bebas mb-6">Follow Us</h3>
               <div className="flex gap-4">
                 <a 
-                  href="https://facebook.com" 
+                  href="https://www.facebook.com/share/1GxBPrcYid/?mibextid=wwXIfr" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-lg bg-boxing-dark border border-primary/30 hover:bg-primary hover:border-primary transition-all"
@@ -77,7 +76,7 @@ const Contact = () => {
                   <Facebook className="w-6 h-6" />
                 </a>
                 <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/boxing.club_paphos?igsh=MWM5cDBidXQ2Znplcw==" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 rounded-lg bg-boxing-dark border border-primary/30 hover:bg-primary hover:border-primary transition-all"
@@ -101,7 +100,7 @@ const Contact = () => {
                   <MapPin className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold mb-1">Address</h4>
-                    <p className="text-gray-400">Paphos, Cyprus</p>
+                    <p className="text-gray-400">Marcantoniou Bragadinou, Paphos 8035</p>
                     <p className="text-gray-400 text-sm mt-1">
                       Visit us at our state-of-the-art facility in the heart of Paphos
                     </p>
@@ -112,7 +111,7 @@ const Contact = () => {
               {/* Google Maps Embed - Replace with actual address/location */}
               <div className="w-full h-64 rounded-lg overflow-hidden border border-primary/20">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.5!2d32.4!3d34.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDQyJzAwLjAiTiAzMsKwMjQnMDAuMCJF!5e0!3m2!1sen!2s!4v1234567890123!5m2!1sen!2s"
+                  src="https://maps.app.goo.gl/CKyFUa1H6Yb7tuPR9?g_st=ipc"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -123,9 +122,6 @@ const Contact = () => {
                   className="w-full h-full"
                 />
               </div>
-              <p className="text-gray-500 text-xs mt-2 text-center">
-                * Update the map embed URL with your exact location
-              </p>
             </div>
           </div>
         </div>
@@ -134,7 +130,19 @@ const Contact = () => {
       {/* Footer */}
       <div className="max-w-7xl mx-auto px-6 mt-24 pt-12 border-t border-primary/20">
         <div className="text-center text-gray-400 text-sm">
-          <p>© 2024 Paphos Boxing Club. All rights reserved.</p>
+          <p>© 2025 Paphos Boxing Club. All rights reserved.</p>
+          <div>
+      Created by{" "}
+      <a
+        href="https://hexadev-web.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ textDecoration: "none", color: "purple", fontWeight: "bold" }}
+      >
+        HexaDev
+      </a>{" "}
+      Team
+    </div>
           <p className="mt-2">Cyprus Paphos | Training Academy | Body Art | Est. 2017</p>
         </div>
       </div>
